@@ -1,0 +1,24 @@
+/* index.css */
+@import "leaflet/dist/leaflet.css";
+
+/* index.css */
+.map-responsive {
+    width: 100%;
+    height: 0;
+    padding-bottom: 75%; /* Proporción de 4:3, ajusta según necesites */
+    position: relative;
+  }
+  
+  .map-responsive .leaflet-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .responsive-image {
+    width: 100%;
+    height: auto;
+  }
+  
